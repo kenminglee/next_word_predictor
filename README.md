@@ -1,8 +1,8 @@
 To try this out, please use a GET command on the following url: 
 ```
-http://ec2-54-145-55-94.compute-1.amazonaws.com/getNextWord/<Enter your word/sentence here>
+http://ec2-54-145-55-94.compute-1.amazonaws.com/getNextWord/<Enter your word or sentence here>
 ```
-<Enter your word/sentence here> can be replaced with any words/sentences. We can add "%20" in between words to act as spacing.
+<Enter your word or sentence here> can be replaced with any words/sentences. We can add "%20" in between words to act as spacing.
 
 
 Docker command: 
