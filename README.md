@@ -17,3 +17,8 @@ cd deploy
 docker . -t=an_image
 docker run -d --restart always -p 80:80 -e WORKERS_PER_CORE="0.5" an_image:latest
 ```
+
+### Improvements:
+- Use larger training dataset (the current dataset used only has a corpus of 2000+ words)
+- Use a better model (LSTM? GRU?)
+- Fine-tuning a pretrained model like GPT2? (Currently most pretrained models use their own word embeddings so using it with Universal Sentence Embedding is out of the question)
