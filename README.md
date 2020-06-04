@@ -12,7 +12,7 @@ http://ec2-54-145-55-94.compute-1.amazonaws.com/getNextWord/hello%20world
 
 ### Deployment 
 ``` bash
-git clone 
+git clone https://github.com/leeming99/next_word_predictor.git
 cd deploy
 docker . -t=an_image
 docker run -d --restart always -p 80:80 -e WORKERS_PER_CORE="0.5" an_image:latest
